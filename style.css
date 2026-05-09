@@ -1,0 +1,55 @@
+body {
+        color: rgb(247, 252, 255);
+        background-color: rgb(255, 255, 255);
+    }
+.nav1 {
+    background-color: rgba(7, 42, 107, 0.8);
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav2 {
+    background-color: rgb(101, 135, 209);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav2, li{
+   margin-left: 20px;
+    margin-right: 20px;
+}
+.page1 {
+    background-color: rgba(7, 42, 107, 0.8);
+    padding: 80px;
+    border-radius: 15px;
+    margin: 40px auto;  /* adiciona espaço entre os blocos */
+    max-width: 800px;    /* opcional: define largura máxima */
+}
+
+.font1 {
+    color: rgb(247, 252, 255);
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 600px;
+    height: 400px;
+}
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 20px; /* espaço entre os itens */
+}
+
+.nav2 ul li {
+  /* estilos opcionais para os itens */
+}
+
+.nav2 ul li a {
+  text-decoration: none;
+  color: white; /* ajuste conforme o fundo */
+}
+
